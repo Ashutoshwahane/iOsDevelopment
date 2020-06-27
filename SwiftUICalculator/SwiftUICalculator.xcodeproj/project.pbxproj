@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		176C046A249DF052001D740E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C0469249DF052001D740E /* AppDelegate.swift */; };
-		176C046C249DF052001D740E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C046B249DF052001D740E /* SceneDelegate.swift */; };
-		176C046E249DF052001D740E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C046D249DF052001D740E /* ViewController.swift */; };
-		176C0471249DF052001D740E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176C046F249DF052001D740E /* Main.storyboard */; };
-		176C0473249DF054001D740E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176C0472249DF054001D740E /* Assets.xcassets */; };
-		176C0476249DF054001D740E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176C0474249DF054001D740E /* LaunchScreen.storyboard */; };
+		171CC24B24A73304003D936D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171CC24A24A73304003D936D /* AppDelegate.swift */; };
+		171CC24D24A73304003D936D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171CC24C24A73304003D936D /* SceneDelegate.swift */; };
+		171CC24F24A73304003D936D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171CC24E24A73304003D936D /* ContentView.swift */; };
+		171CC25124A73306003D936D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171CC25024A73306003D936D /* Assets.xcassets */; };
+		171CC25424A73306003D936D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171CC25324A73306003D936D /* Preview Assets.xcassets */; };
+		171CC25724A73306003D936D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171CC25524A73306003D936D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		176C0466249DF052001D740E /* MyiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		176C0469249DF052001D740E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		176C046B249DF052001D740E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		176C046D249DF052001D740E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		176C0470249DF052001D740E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		176C0472249DF054001D740E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		176C0475249DF054001D740E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		176C0477249DF054001D740E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171CC24724A73304003D936D /* SwiftUICalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		171CC24A24A73304003D936D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		171CC24C24A73304003D936D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		171CC24E24A73304003D936D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		171CC25024A73306003D936D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		171CC25324A73306003D936D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		171CC25624A73306003D936D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		171CC25824A73306003D936D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		176C0463249DF052001D740E /* Frameworks */ = {
+		171CC24424A73304003D936D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		176C045D249DF052001D740E = {
+		171CC23E24A73304003D936D = {
 			isa = PBXGroup;
 			children = (
-				176C0468249DF052001D740E /* MyiPhone */,
-				176C0467249DF052001D740E /* Products */,
+				171CC24924A73304003D936D /* SwiftUICalculator */,
+				171CC24824A73304003D936D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		176C0467249DF052001D740E /* Products */ = {
+		171CC24824A73304003D936D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				176C0466249DF052001D740E /* MyiPhone.app */,
+				171CC24724A73304003D936D /* SwiftUICalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		176C0468249DF052001D740E /* MyiPhone */ = {
+		171CC24924A73304003D936D /* SwiftUICalculator */ = {
 			isa = PBXGroup;
 			children = (
-				176C0469249DF052001D740E /* AppDelegate.swift */,
-				176C046B249DF052001D740E /* SceneDelegate.swift */,
-				176C046D249DF052001D740E /* ViewController.swift */,
-				176C046F249DF052001D740E /* Main.storyboard */,
-				176C0472249DF054001D740E /* Assets.xcassets */,
-				176C0474249DF054001D740E /* LaunchScreen.storyboard */,
-				176C0477249DF054001D740E /* Info.plist */,
+				171CC24A24A73304003D936D /* AppDelegate.swift */,
+				171CC24C24A73304003D936D /* SceneDelegate.swift */,
+				171CC24E24A73304003D936D /* ContentView.swift */,
+				171CC25024A73306003D936D /* Assets.xcassets */,
+				171CC25524A73306003D936D /* LaunchScreen.storyboard */,
+				171CC25824A73306003D936D /* Info.plist */,
+				171CC25224A73306003D936D /* Preview Content */,
 			);
-			path = MyiPhone;
+			path = SwiftUICalculator;
+			sourceTree = "<group>";
+		};
+		171CC25224A73306003D936D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				171CC25324A73306003D936D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		176C0465249DF052001D740E /* MyiPhone */ = {
+		171CC24624A73304003D936D /* SwiftUICalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 176C047A249DF054001D740E /* Build configuration list for PBXNativeTarget "MyiPhone" */;
+			buildConfigurationList = 171CC25B24A73306003D936D /* Build configuration list for PBXNativeTarget "SwiftUICalculator" */;
 			buildPhases = (
-				176C0462249DF052001D740E /* Sources */,
-				176C0463249DF052001D740E /* Frameworks */,
-				176C0464249DF052001D740E /* Resources */,
+				171CC24324A73304003D936D /* Sources */,
+				171CC24424A73304003D936D /* Frameworks */,
+				171CC24524A73304003D936D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyiPhone;
-			productName = MyiPhone;
-			productReference = 176C0466249DF052001D740E /* MyiPhone.app */;
+			name = SwiftUICalculator;
+			productName = SwiftUICalculator;
+			productReference = 171CC24724A73304003D936D /* SwiftUICalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		176C045E249DF052001D740E /* Project object */ = {
+		171CC23F24A73304003D936D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Ashutosh Wahane";
 				TargetAttributes = {
-					176C0465249DF052001D740E = {
+					171CC24624A73304003D936D = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 176C0461249DF052001D740E /* Build configuration list for PBXProject "MyiPhone" */;
+			buildConfigurationList = 171CC24224A73304003D936D /* Build configuration list for PBXProject "SwiftUICalculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +118,47 @@
 				en,
 				Base,
 			);
-			mainGroup = 176C045D249DF052001D740E;
-			productRefGroup = 176C0467249DF052001D740E /* Products */;
+			mainGroup = 171CC23E24A73304003D936D;
+			productRefGroup = 171CC24824A73304003D936D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				176C0465249DF052001D740E /* MyiPhone */,
+				171CC24624A73304003D936D /* SwiftUICalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		176C0464249DF052001D740E /* Resources */ = {
+		171CC24524A73304003D936D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				176C0476249DF054001D740E /* LaunchScreen.storyboard in Resources */,
-				176C0473249DF054001D740E /* Assets.xcassets in Resources */,
-				176C0471249DF052001D740E /* Main.storyboard in Resources */,
+				171CC25724A73306003D936D /* LaunchScreen.storyboard in Resources */,
+				171CC25424A73306003D936D /* Preview Assets.xcassets in Resources */,
+				171CC25124A73306003D936D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		176C0462249DF052001D740E /* Sources */ = {
+		171CC24324A73304003D936D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				176C046E249DF052001D740E /* ViewController.swift in Sources */,
-				176C046A249DF052001D740E /* AppDelegate.swift in Sources */,
-				176C046C249DF052001D740E /* SceneDelegate.swift in Sources */,
+				171CC24B24A73304003D936D /* AppDelegate.swift in Sources */,
+				171CC24D24A73304003D936D /* SceneDelegate.swift in Sources */,
+				171CC24F24A73304003D936D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		176C046F249DF052001D740E /* Main.storyboard */ = {
+		171CC25524A73306003D936D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				176C0470249DF052001D740E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		176C0474249DF054001D740E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				176C0475249DF054001D740E /* Base */,
+				171CC25624A73306003D936D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		176C0478249DF054001D740E /* Debug */ = {
+		171CC25924A73306003D936D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		176C0479249DF054001D740E /* Release */ = {
+		171CC25A24A73306003D936D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,38 +280,40 @@
 			};
 			name = Release;
 		};
-		176C047B249DF054001D740E /* Debug */ = {
+		171CC25C24A73306003D936D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = U49XR48868;
-				INFOPLIST_FILE = MyiPhone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUICalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cybernerd404.tect.MyiPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = cybernerd404.tect.SwiftUICalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		176C047C249DF054001D740E /* Release */ = {
+		171CC25D24A73306003D936D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUICalculator/Preview Content\"";
 				DEVELOPMENT_TEAM = U49XR48868;
-				INFOPLIST_FILE = MyiPhone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUICalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cybernerd404.tect.MyiPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = cybernerd404.tect.SwiftUICalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		176C0461249DF052001D740E /* Build configuration list for PBXProject "MyiPhone" */ = {
+		171CC24224A73304003D936D /* Build configuration list for PBXProject "SwiftUICalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				176C0478249DF054001D740E /* Debug */,
-				176C0479249DF054001D740E /* Release */,
+				171CC25924A73306003D936D /* Debug */,
+				171CC25A24A73306003D936D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		176C047A249DF054001D740E /* Build configuration list for PBXNativeTarget "MyiPhone" */ = {
+		171CC25B24A73306003D936D /* Build configuration list for PBXNativeTarget "SwiftUICalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				176C047B249DF054001D740E /* Debug */,
-				176C047C249DF054001D740E /* Release */,
+				171CC25C24A73306003D936D /* Debug */,
+				171CC25D24A73306003D936D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 176C045E249DF052001D740E /* Project object */;
+	rootObject = 171CC23F24A73304003D936D /* Project object */;
 }
